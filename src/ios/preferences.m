@@ -18,13 +18,13 @@
  */
 
 #import <Cordova/CDV.h>
-#import "CDVDevice.h"
+#import "preferences.h"
 
 
-@interface CDVDevice () {}
+@interface Preferences () {}
 @end
 
-@implementation CDVDevice
+@implementation Preferences
 
 - (void)getValue:(CDVInvokedUrlCommand*)command {
     NSArray* arguments = [command arguments];
